@@ -1,0 +1,612 @@
+{
+	"metadata": {
+		"titulo": "Trilhas de tecnologia baseadas no catálogo público da DIO",
+		"quantidade_trilhas": 30,
+		"idioma": "pt-BR",
+		"ultima_consulta_catalogo": "2026-10-06",
+		"observacao": "As trilhas abaixo são roteiros curriculares sugeridos com base em carreiras, cursos e tecnologias divulgados publicamente pela DIO. Os módulos e a carga horária são estimativas editoriais, não uma reprodução garantida de uma formação oficial. Disponibilidade de cursos, promoções, acesso vitalício e lives pode mudar e deve ser confirmada na página vinculada antes da inscrição.",
+		"fonte_geral": "https://www.dio.me/en"
+	},
+	"trilhas": [
+		{
+			"id": 1,
+			"nome": "AI Agent Builder: agentes inteligentes do zero à produção",
+			"tecnologia": ["Python", "LLMs", "OpenAI API", "CrewAI", "LangChain", "RAG"],
+			"nivel": "intermediário a avançado",
+			"modulos": [
+				{"nome": "Fundamentos de IA generativa", "conteudos": ["LLMs, tokens e limites", "prompting, segurança e avaliação"]},
+				{"nome": "Python e integração com modelos", "conteudos": ["APIs, JSON e tratamento de erros", "saídas estruturadas e ferramentas"]},
+				{"nome": "Arquitetura de agentes", "conteudos": ["planejamento, memória e uso de ferramentas", "CrewAI e LangChain: padrões de orquestração"]},
+				{"nome": "Conhecimento com RAG", "conteudos": ["embeddings e busca vetorial", "ingestão, recuperação e citações"]},
+				{"nome": "Projeto e avaliação", "conteudos": ["agente especialista com ferramentas", "testes, observabilidade, custos e publicação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 100,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/ai-agent-builder",
+			"tipo_curriculo": "sugerido; não garante formação oficial com este nome"
+		},
+		{
+			"id": 2,
+			"nome": "AI Automation: automação inteligente de processos",
+			"tecnologia": ["IA generativa", "n8n", "APIs", "CrewAI", "webhooks"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Mapeamento de processos", "conteudos": ["identificação de tarefas repetitivas", "requisitos, riscos e indicadores"]},
+				{"nome": "Fluxos com n8n", "conteudos": ["gatilhos, nós e credenciais", "ramificações, agendamento e tratamento de falhas"]},
+				{"nome": "APIs e automação de dados", "conteudos": ["HTTP, JSON e webhooks", "integração segura entre serviços"]},
+				{"nome": "IA dentro dos fluxos", "conteudos": ["classificação e extração com LLMs", "aprovação humana e limites de uso"]},
+				{"nome": "Projeto de automação", "conteudos": ["pipeline completo com logs", "documentação, testes e estimativa de economia"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 75,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/ai-automation",
+			"tipo_curriculo": "sugerido; não garante formação oficial com este nome"
+		},
+		{
+			"id": 3,
+			"nome": "AI Developer: aplicações com modelos generativos",
+			"tecnologia": ["Python", "OpenAI API", "GitHub Copilot", "Azure AI", "prompt engineering"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Fundamentos de programação e IA", "conteudos": ["Python aplicado a serviços", "conceitos de IA generativa e modelos"]},
+				{"nome": "Engenharia de prompts", "conteudos": ["instruções, contexto e exemplos", "avaliação de respostas e mitigação de alucinações"]},
+				{"nome": "APIs de IA", "conteudos": ["chamadas, autenticação e limites", "respostas estruturadas e streaming"]},
+				{"nome": "Aplicação com interface", "conteudos": ["backend e integração com frontend", "UX conversacional e acessibilidade"]},
+				{"nome": "Entrega responsável", "conteudos": ["privacidade, segurança e custos", "testes e publicação de um assistente"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 90,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/ai-developer",
+			"tipo_curriculo": "sugerido; não garante formação oficial com este nome"
+		},
+		{
+			"id": 4,
+			"nome": "Cientista de Dados com IA e Machine Learning",
+			"tecnologia": ["Python", "SQL", "pandas", "scikit-learn", "Machine Learning"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "Python para dados", "conteudos": ["tipos, funções e notebooks", "pandas, limpeza e transformação"]},
+				{"nome": "SQL e exploração", "conteudos": ["consultas, junções e agregações", "análise exploratória e visualização"]},
+				{"nome": "Estatística aplicada", "conteudos": ["distribuições, amostragem e testes", "correlação, viés e desenho de experimentos"]},
+				{"nome": "Machine Learning", "conteudos": ["regressão, classificação e agrupamento", "validação, métricas e prevenção de overfitting"]},
+				{"nome": "Projeto analítico", "conteudos": ["pipeline reprodutível ponta a ponta", "relatório de resultados e recomendações de negócio"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 140,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/ai-data-scientist",
+			"tipo_curriculo": "sugerido; não garante formação oficial com este nome"
+		},
+		{
+			"id": 5,
+			"nome": "Desenvolvedor Back-end Java com Spring",
+			"tecnologia": ["Java", "Spring Boot", "SQL", "JUnit", "Docker"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "Java e orientação a objetos", "conteudos": ["sintaxe, coleções e exceções", "encapsulamento, interfaces e generics"]},
+				{"nome": "Persistência e SQL", "conteudos": ["modelagem relacional e consultas", "JPA, Hibernate e migrações"]},
+				{"nome": "APIs com Spring Boot", "conteudos": ["controllers, serviços e validação", "REST, paginação e documentação OpenAPI"]},
+				{"nome": "Qualidade e segurança", "conteudos": ["JUnit, Mockito e testes de integração", "autenticação, autorização e tratamento de erros"]},
+				{"nome": "Entrega de serviço", "conteudos": ["Docker, configuração e logs", "pipeline CI e publicação de API"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 150,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/back-end",
+			"tipo_curriculo": "sugerido com cursos Java e Spring divulgados pela DIO"
+		},
+		{
+			"id": 6,
+			"nome": "Desenvolvedor Back-end .NET e C#",
+			"tecnologia": ["C#", ".NET", "ASP.NET Core", "Entity Framework", "SQL"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "C# e plataforma .NET", "conteudos": ["sintaxe, tipos e coleções", "orientação a objetos e LINQ"]},
+				{"nome": "Banco de dados", "conteudos": ["SQL e desenho relacional", "Entity Framework Core e migrations"]},
+				{"nome": "Serviços web", "conteudos": ["ASP.NET Core e APIs REST", "validação, paginação e documentação"]},
+				{"nome": "Testes e segurança", "conteudos": ["testes unitários e integração", "autenticação, autorização e proteção de dados"]},
+				{"nome": "Publicação", "conteudos": ["configuração por ambiente e logs", "Docker e implantação em nuvem"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 135,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/back-end",
+			"tipo_curriculo": "sugerido com curso .NET divulgado pela DIO"
+		},
+		{
+			"id": 7,
+			"nome": "Desenvolvedor Back-end Python e APIs",
+			"tecnologia": ["Python", "FastAPI", "Django", "SQL", "pytest"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Fundamentos de Python", "conteudos": ["estruturas, funções e módulos", "ambientes virtuais, pacotes e typing"]},
+				{"nome": "HTTP e APIs", "conteudos": ["métodos, status e contratos REST", "FastAPI, validação e documentação"]},
+				{"nome": "Persistência", "conteudos": ["SQL, índices e relacionamentos", "ORM, transações e migrations"]},
+				{"nome": "Testes e confiabilidade", "conteudos": ["pytest e mocks", "logs, exceções e validação de entrada"]},
+				{"nome": "Projeto publicado", "conteudos": ["API com autenticação e documentação", "containerização e implantação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 110,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/back-end",
+			"tipo_curriculo": "sugerido com cursos Python divulgados pela DIO"
+		},
+		{
+			"id": 8,
+			"nome": "Desenvolvedor Full Stack TypeScript",
+			"tecnologia": ["TypeScript", "JavaScript", "Node.js", "React", "SQL"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "Web e TypeScript", "conteudos": ["HTML, CSS e JavaScript moderno", "tipos, interfaces e módulos TypeScript"]},
+				{"nome": "Front-end de aplicação", "conteudos": ["componentes, estado e formulários", "consumo de APIs e acessibilidade"]},
+				{"nome": "Back-end Node.js", "conteudos": ["rotas, middleware e validação", "APIs REST e autenticação"]},
+				{"nome": "Banco e testes", "conteudos": ["SQL, modelagem e ORM", "testes de componentes e endpoints"]},
+				{"nome": "Entrega full stack", "conteudos": ["integração de ponta a ponta", "Git, CI e implantação do projeto"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 160,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/back-end",
+			"tipo_curriculo": "sugerido com curso TypeScript Fullstack divulgado pela DIO"
+		},
+		{
+			"id": 9,
+			"nome": "Desenvolvedor Front-end React",
+			"tecnologia": ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "Fundamentos web", "conteudos": ["HTML semântico e formulários", "CSS responsivo, layout e acessibilidade"]},
+				{"nome": "JavaScript moderno", "conteudos": ["arrays, objetos e funções", "módulos, promises e consumo de APIs"]},
+				{"nome": "React essencial", "conteudos": ["componentes, props e estado", "eventos, efeitos e composição de telas"]},
+				{"nome": "Aplicações robustas", "conteudos": ["TypeScript e validação de dados", "rotas, formulários e testes"]},
+				{"nome": "Projeto de portfólio", "conteudos": ["interface acessível integrada a API", "build, Git e publicação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 130,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/front-end",
+			"tipo_curriculo": "sugerido com cursos React e fundamentos web divulgados pela DIO"
+		},
+		{
+			"id": 10,
+			"nome": "Desenvolvedor Front-end Angular",
+			"tecnologia": ["HTML", "CSS", "TypeScript", "Angular", "RxJS"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "Base web e TypeScript", "conteudos": ["HTML semântico e CSS responsivo", "tipagem, interfaces e módulos"]},
+				{"nome": "Angular essencial", "conteudos": ["componentes, templates e diretivas", "injeção de dependências e serviços"]},
+				{"nome": "Rotas e formulários", "conteudos": ["roteamento e navegação", "formulários reativos e validação"]},
+				{"nome": "Dados e qualidade", "conteudos": ["HTTP, RxJS e estados assíncronos", "testes de componentes e serviços"]},
+				{"nome": "Aplicação final", "conteudos": ["painel responsivo conectado a API", "build, acessibilidade e publicação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 125,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/front-end",
+			"tipo_curriculo": "sugerido com curso Angular divulgado pela DIO"
+		},
+		{
+			"id": 11,
+			"nome": "Fundamentos de Desenvolvimento Front-end",
+			"tecnologia": ["HTML", "CSS", "JavaScript", "Git", "UX"],
+			"nivel": "iniciante",
+			"modulos": [
+				{"nome": "Lógica e ambiente", "conteudos": ["algoritmos e resolução de problemas", "editor, terminal e organização de arquivos"]},
+				{"nome": "HTML semântico", "conteudos": ["estrutura de documentos e metadados", "links, imagens, tabelas e formulários"]},
+				{"nome": "CSS e responsividade", "conteudos": ["cascata, seletores e tipografia", "Flexbox, Grid e media queries"]},
+				{"nome": "JavaScript básico", "conteudos": ["variáveis, condições, laços e funções", "DOM, eventos e validação de formulários"]},
+				{"nome": "Git e projeto", "conteudos": ["commits, branches e repositório remoto", "site responsivo documentado para portfólio"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 85,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/front-end",
+			"tipo_curriculo": "sugerido com cursos HTML, CSS e JavaScript divulgados pela DIO"
+		},
+		{
+			"id": 12,
+			"nome": "Desenvolvedor Mobile Android com Kotlin",
+			"tecnologia": ["Kotlin", "Android", "Jetpack", "SQLite", "Git"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "Kotlin e orientação a objetos", "conteudos": ["sintaxe, null safety e coleções", "classes, funções e corrotinas"]},
+				{"nome": "Android e interfaces", "conteudos": ["ciclo de vida e componentes", "layouts, navegação e acessibilidade"]},
+				{"nome": "Dados e serviços", "conteudos": ["persistência local e preferências", "consumo de APIs e estados de carregamento"]},
+				{"nome": "Arquitetura e testes", "conteudos": ["separação de camadas e injeção", "testes unitários e de interface"]},
+				{"nome": "Aplicativo publicável", "conteudos": ["permissões, segurança e desempenho", "build, assinatura e preparação de release"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 145,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/mobile",
+			"tipo_curriculo": "sugerido com curso Android Developer divulgado pela DIO"
+		},
+		{
+			"id": 13,
+			"nome": "Desenvolvedor Mobile Flutter",
+			"tecnologia": ["Dart", "Flutter", "Firebase", "APIs REST", "Git"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Dart", "conteudos": ["tipos, funções e coleções", "classes, futures e programação assíncrona"]},
+				{"nome": "Flutter e widgets", "conteudos": ["árvore de widgets e layouts", "temas, navegação e interfaces adaptáveis"]},
+				{"nome": "Estado e integração", "conteudos": ["gerenciamento de estado", "consumo de APIs, serialização e erros"]},
+				{"nome": "Persistência e testes", "conteudos": ["armazenamento local e Firebase", "testes de widgets e lógica de negócio"]},
+				{"nome": "Projeto multiplataforma", "conteudos": ["aplicativo funcional para Android e iOS", "build, desempenho e publicação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 120,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/mobile",
+			"tipo_curriculo": "sugerido com curso Flutter Specialist divulgado pela DIO"
+		},
+		{
+			"id": 14,
+			"nome": "Desenvolvedor iOS com Swift",
+			"tecnologia": ["Swift", "iOS", "SwiftUI", "Xcode", "APIs REST"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Swift essencial", "conteudos": ["sintaxe, optionals e coleções", "protocolos, structs e tratamento de erros"]},
+				{"nome": "Interface iOS", "conteudos": ["SwiftUI e composição de telas", "navegação, estados e acessibilidade"]},
+				{"nome": "Dados e conectividade", "conteudos": ["consumo de serviços REST", "persistência local e codificação de dados"]},
+				{"nome": "Arquitetura e testes", "conteudos": ["separação de responsabilidades", "testes unitários e depuração no Xcode"]},
+				{"nome": "Entrega iOS", "conteudos": ["permissões, privacidade e desempenho", "assinatura, build e preparação para publicação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 120,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/mobile",
+			"tipo_curriculo": "sugerido com cursos Swift e iOS divulgados pela DIO"
+		},
+		{
+			"id": 15,
+			"nome": "Desenvolvedor Mobile React Native",
+			"tecnologia": ["JavaScript", "TypeScript", "React Native", "Expo", "APIs REST"],
+			"nivel": "intermediário",
+			"modulos": [
+				{"nome": "JavaScript e React", "conteudos": ["ES modules, promises e funções", "componentes, props e estado"]},
+				{"nome": "React Native e Expo", "conteudos": ["componentes nativos e estilos", "navegação, formulários e permissões"]},
+				{"nome": "Dados e integração", "conteudos": ["APIs REST e autenticação", "cache local e conectividade instável"]},
+				{"nome": "Qualidade mobile", "conteudos": ["testes e depuração em dispositivos", "acessibilidade, desempenho e segurança"]},
+				{"nome": "Aplicativo final", "conteudos": ["fluxo completo para Android e iOS", "build, distribuição e documentação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 115,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/mobile",
+			"tipo_curriculo": "sugerido com curso React Native Developer divulgado pela DIO"
+		},
+		{
+			"id": 16,
+			"nome": "DevOps Engineer: automação e entrega contínua",
+			"tecnologia": ["Linux", "Git", "Docker", "Kubernetes", "CI/CD"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "Linux e redes", "conteudos": ["terminal, permissões e processos", "DNS, HTTP, portas e diagnóstico de rede"]},
+				{"nome": "Git e automação", "conteudos": ["branches, revisão e resolução de conflitos", "scripts e pipelines CI"]},
+				{"nome": "Containers", "conteudos": ["imagens, volumes e redes Docker", "Docker Compose e configuração segura"]},
+				{"nome": "Orquestração", "conteudos": ["pods, deployments e services", "configuração, escalabilidade e observabilidade Kubernetes"]},
+				{"nome": "Entrega confiável", "conteudos": ["pipeline de build, teste e deploy", "logs, métricas, alertas e rollback"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 145,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/cloud-devops",
+			"tipo_curriculo": "sugerido com cursos DevOps, Linux, Docker e Kubernetes divulgados pela DIO"
+		},
+		{
+			"id": 17,
+			"nome": "Cloud Practitioner e Arquiteto AWS",
+			"tecnologia": ["AWS", "IAM", "VPC", "EC2", "S3", "Lambda"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Fundamentos de cloud", "conteudos": ["modelos de serviço e responsabilidade compartilhada", "regiões, zonas e arquitetura básica"]},
+				{"nome": "Identidade e rede", "conteudos": ["IAM, usuários, papéis e políticas", "VPC, sub-redes, rotas e grupos de segurança"]},
+				{"nome": "Compute e armazenamento", "conteudos": ["EC2, autoscaling e balanceamento", "S3, ciclo de vida e permissões"]},
+				{"nome": "Dados e serverless", "conteudos": ["serviços gerenciados de banco", "Lambda, eventos e integrações"]},
+				{"nome": "Operação e custos", "conteudos": ["monitoramento, logs e disponibilidade", "estimativa de custos e revisão para certificação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 100,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/cloud-devops",
+			"tipo_curriculo": "sugerido com curso AWS Cloud Practitioner divulgado pela DIO"
+		},
+		{
+			"id": 18,
+			"nome": "Cloud Engineer Microsoft Azure",
+			"tecnologia": ["Microsoft Azure", "Entra ID", "Virtual Network", "Storage", "Azure AI"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Conceitos Azure e cloud", "conteudos": ["regiões, recursos e grupos de recursos", "modelos IaaS, PaaS e SaaS"]},
+				{"nome": "Identidade e governança", "conteudos": ["Microsoft Entra ID e controle de acesso", "políticas, tags e organização de recursos"]},
+				{"nome": "Rede e computação", "conteudos": ["redes virtuais, sub-redes e segurança", "máquinas virtuais e serviços de aplicação"]},
+				{"nome": "Armazenamento e dados", "conteudos": ["contas de armazenamento e redundância", "bancos gerenciados e integração"]},
+				{"nome": "Operação e certificação", "conteudos": ["monitoramento, disponibilidade e custos", "laboratório prático e revisão AZ-900"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 95,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/cloud-solution-architect",
+			"tipo_curriculo": "sugerido com trilhas Azure e AZ-900 divulgadas pela DIO"
+		},
+		{
+			"id": 19,
+			"nome": "Cloud Engineer Google Cloud Platform",
+			"tecnologia": ["Google Cloud", "IAM", "Compute Engine", "Cloud Storage", "BigQuery"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Fundamentos GCP", "conteudos": ["projetos, regiões e zonas", "serviços cloud e modelo de responsabilidade"]},
+				{"nome": "Identidade e rede", "conteudos": ["IAM e permissões", "VPC, firewall e conectividade"]},
+				{"nome": "Compute e armazenamento", "conteudos": ["Compute Engine e serviços gerenciados", "Cloud Storage, buckets e ciclo de vida"]},
+				{"nome": "Dados e integração", "conteudos": ["BigQuery e consultas analíticas", "mensageria e integração de serviços"]},
+				{"nome": "Operação cloud", "conteudos": ["monitoramento, logs e alertas", "segurança, custos e laboratório de arquitetura"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 95,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/cloud-solution-architect",
+			"tipo_curriculo": "sugerido com curso Google Cloud Platform Specialist divulgado pela DIO"
+		},
+		{
+			"id": 20,
+			"nome": "Engenheiro de Dados: pipelines e plataformas analíticas",
+			"tecnologia": ["Python", "SQL", "ETL/ELT", "Cloud", "Docker"],
+			"nivel": "intermediário a avançado",
+			"modulos": [
+				{"nome": "Python e SQL para engenharia", "conteudos": ["transformação de dados e modularidade", "consultas, índices e modelagem analítica"]},
+				{"nome": "Ingestão de dados", "conteudos": ["arquivos, APIs e bancos de origem", "lotes, incrementais e qualidade na entrada"]},
+				{"nome": "Modelagem e transformação", "conteudos": ["camadas raw, staging e marts", "regras de negócio e validações"]},
+				{"nome": "Orquestração e cloud", "conteudos": ["agendamento, dependências e retentativas", "armazenamento e processamento gerenciado"]},
+				{"nome": "Pipeline de portfólio", "conteudos": ["pipeline reproduzível com testes", "monitoramento, documentação e custos"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 145,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/data-engineer",
+			"tipo_curriculo": "sugerido com conteúdos de Python, SQL e cloud divulgados pela DIO"
+		},
+		{
+			"id": 21,
+			"nome": "Analista de Dados com Power BI",
+			"tecnologia": ["Power BI", "DAX", "Power Query", "SQL", "modelagem dimensional"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Fundamentos analíticos", "conteudos": ["perguntas de negócio e métricas", "tipos de dados e qualidade"]},
+				{"nome": "SQL para análise", "conteudos": ["filtros, junções e agregações", "consultas para indicadores e validação"]},
+				{"nome": "Power Query e modelagem", "conteudos": ["limpeza e combinação de fontes", "relacionamentos e modelo dimensional"]},
+				{"nome": "DAX e visualização", "conteudos": ["medidas, contexto e funções comuns", "gráficos, filtros e narrativa visual"]},
+				{"nome": "Dashboard executivo", "conteudos": ["painel interativo com métricas relevantes", "publicação, documentação e apresentação de insights"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 90,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/data-analyst",
+			"tipo_curriculo": "sugerido com curso Power BI divulgado pela DIO"
+		},
+		{
+			"id": 22,
+			"nome": "Analista de Dados com SQL e Python",
+			"tecnologia": ["SQL", "Python", "pandas", "Jupyter", "visualização de dados"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "SQL essencial", "conteudos": ["SELECT, filtros, agrupamentos e junções", "subconsultas, CTEs e funções de janela"]},
+				{"nome": "Python para análise", "conteudos": ["notebooks e estruturas de dados", "pandas para limpeza e transformação"]},
+				{"nome": "Estatística descritiva", "conteudos": ["distribuições, médias e dispersão", "amostragem, correlação e limitações"]},
+				{"nome": "Visualização e comunicação", "conteudos": ["gráficos adequados à pergunta", "análise exploratória e narrativa com dados"]},
+				{"nome": "Estudo de caso", "conteudos": ["análise de conjunto de dados realista", "recomendações, notebook e apresentação executiva"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 100,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/data-analyst",
+			"tipo_curriculo": "sugerido com cursos SQL e Python divulgados pela DIO"
+		},
+		{
+			"id": 23,
+			"nome": "Engenheiro de Machine Learning",
+			"tecnologia": ["Python", "scikit-learn", "Docker", "Kubernetes", "MLOps"],
+			"nivel": "avançado",
+			"modulos": [
+				{"nome": "Python, dados e estatística", "conteudos": ["pipelines de preparação e validação", "estatística, amostragem e métricas"]},
+				{"nome": "Modelos de aprendizado", "conteudos": ["modelos supervisionados e não supervisionados", "seleção de atributos e ajuste de hiperparâmetros"]},
+				{"nome": "Engenharia de features", "conteudos": ["transformações reprodutíveis", "prevenção de vazamento e versionamento"]},
+				{"nome": "Servir modelos", "conteudos": ["API de inferência e serialização", "containerização, testes e escalabilidade"]},
+				{"nome": "MLOps e monitoramento", "conteudos": ["CI/CD para modelos e rastreabilidade", "drift, qualidade, custos e projeto de entrega"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 165,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/machine-learning-engineer",
+			"tipo_curriculo": "sugerido com cursos de Machine Learning, Python, Docker e Kubernetes divulgados pela DIO"
+		},
+		{
+			"id": 24,
+			"nome": "Especialista em Cybersecurity",
+			"tecnologia": ["Linux", "redes", "OWASP", "SIEM", "segurança de aplicações"],
+			"nivel": "iniciante a avançado",
+			"modulos": [
+				{"nome": "Fundamentos de segurança", "conteudos": ["confidencialidade, integridade e disponibilidade", "ameaças, vulnerabilidades e gestão de risco"]},
+				{"nome": "Redes e sistemas", "conteudos": ["TCP/IP, DNS, HTTP e segmentação", "Linux, permissões, logs e hardening"]},
+				{"nome": "Segurança de aplicações", "conteudos": ["OWASP Top 10 e validação de entrada", "gestão de segredos e dependências"]},
+				{"nome": "Monitoramento e resposta", "conteudos": ["logs, alertas e conceitos de SIEM", "triagem, contenção e documentação de incidentes"]},
+				{"nome": "Laboratório defensivo", "conteudos": ["avaliação em ambiente autorizado", "relatório de riscos e plano de mitigação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 130,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/cyber-security",
+			"tipo_curriculo": "sugerido com curso Cybersecurity Specialist divulgado pela DIO"
+		},
+		{
+			"id": 25,
+			"nome": "Analista de Quality Assurance e Automação de Testes",
+			"tecnologia": ["QA", "Cypress", "JavaScript", "API testing", "CI"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Fundamentos de QA", "conteudos": ["ciclo de desenvolvimento e níveis de teste", "casos, cenários, evidências e priorização"]},
+				{"nome": "Testes manuais e API", "conteudos": ["testes funcionais, regressão e exploratórios", "HTTP, contratos e validação de serviços"]},
+				{"nome": "Automação com Cypress", "conteudos": ["seletores, comandos e assertions", "fixtures, interceptação e organização de suítes"]},
+				{"nome": "Qualidade contínua", "conteudos": ["testes em pipeline CI", "relatórios, flakiness e manutenção"]},
+				{"nome": "Projeto de testes", "conteudos": ["plano de testes para aplicação web", "suíte automatizada e relatório de defeitos"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 95,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/qualidade-software-qa",
+			"tipo_curriculo": "sugerido com cursos QA e Cypress divulgados pela DIO"
+		},
+		{
+			"id": 26,
+			"nome": "Desenvolvedor de Games com Roblox e Lua",
+			"tecnologia": ["Roblox Studio", "Lua", "design de jogos", "Git"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Lógica e Lua", "conteudos": ["variáveis, condições, laços e funções", "tabelas, eventos e organização de scripts"]},
+				{"nome": "Roblox Studio", "conteudos": ["cenas, objetos e propriedades", "terreno, iluminação e composição de níveis"]},
+				{"nome": "Mecânicas de jogo", "conteudos": ["controles, pontuação e objetivos", "eventos, colisões e interfaces"]},
+				{"nome": "Multiplayer e segurança", "conteudos": ["scripts cliente-servidor", "validação de eventos e prevenção de abusos"]},
+				{"nome": "Publicação de experiência", "conteudos": ["balanceamento, testes e desempenho", "publicação, descrição e evolução por feedback"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 85,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/games",
+			"tipo_curriculo": "sugerido com curso Programação Roblox divulgado pela DIO"
+		},
+		{
+			"id": 27,
+			"nome": "Desenvolvedor de Games com Unity 3D e C#",
+			"tecnologia": ["Unity 3D", "C#", "física de jogos", "Git"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "C# para jogos", "conteudos": ["tipos, classes e componentes", "eventos, coleções e organização de código"]},
+				{"nome": "Unity e cenas 3D", "conteudos": ["GameObjects, componentes e prefabs", "materiais, iluminação e câmera"]},
+				{"nome": "Gameplay e física", "conteudos": ["entrada, movimento e colisões", "animação, áudio e interface de usuário"]},
+				{"nome": "Arquitetura e otimização", "conteudos": ["ciclo de vida e padrões de componentes", "profiling, memória e desempenho"]},
+				{"nome": "Vertical slice", "conteudos": ["protótipo jogável com objetivo completo", "testes, build e apresentação de portfólio"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 125,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/games",
+			"tipo_curriculo": "sugerido com curso Unity 3D Game Developer divulgado pela DIO"
+		},
+		{
+			"id": 28,
+			"nome": "Desenvolvedor Blockchain e Web3",
+			"tecnologia": ["Blockchain", "Web3", "Solidity", "carteiras digitais", "smart contracts"],
+			"nivel": "intermediário a avançado",
+			"modulos": [
+				{"nome": "Fundamentos de blockchain", "conteudos": ["blocos, consenso e redes distribuídas", "chaves, hashes e carteiras"]},
+				{"nome": "Web3 e contratos", "conteudos": ["transações, gas e redes de teste", "estrutura e ciclo de vida de smart contracts"]},
+				{"nome": "Desenvolvimento de dApp", "conteudos": ["integração de interface com carteira", "leitura e escrita de dados on-chain"]},
+				{"nome": "Segurança e testes", "conteudos": ["ameaças comuns e revisão de contratos", "testes automatizados em ambiente local/testnet"]},
+				{"nome": "Projeto Web3", "conteudos": ["dApp demonstrável em rede de teste", "documentação, custos e limites do protótipo"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 120,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/web3",
+			"tipo_curriculo": "sugerido com cursos Blockchain Specialist e Web3 Fundamentals divulgados pela DIO"
+		},
+		{
+			"id": 29,
+			"nome": "Desenvolvedor Low-code com Microsoft Dynamics 365",
+			"tecnologia": ["Microsoft Dynamics 365", "CRM", "Power Platform", "automação", "APIs"],
+			"nivel": "iniciante a intermediário",
+			"modulos": [
+				{"nome": "Fundamentos de CRM", "conteudos": ["processos de vendas, atendimento e relacionamento", "entidades, registros e qualidade de dados"]},
+				{"nome": "Dynamics 365", "conteudos": ["modelagem de tabelas e formulários", "visões, regras de negócio e permissões"]},
+				{"nome": "Automação low-code", "conteudos": ["fluxos, gatilhos e aprovações", "integrações com serviços e notificações"]},
+				{"nome": "Personalização e governança", "conteudos": ["soluções, ambientes e ciclo de vida", "segurança, auditoria e controle de alterações"]},
+				{"nome": "Caso de negócio", "conteudos": ["configuração de processo CRM ponta a ponta", "testes, documentação e demonstração"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 90,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/low-code-crm",
+			"tipo_curriculo": "sugerido com curso Microsoft Dynamics 365 CRM divulgado pela DIO"
+		},
+		{
+			"id": 30,
+			"nome": "Especialista em IA aplicada a dados e negócios",
+			"tecnologia": ["IA generativa", "Python", "SQL", "Power BI", "Machine Learning"],
+			"nivel": "intermediário",
+			"modulos": [
+				{"nome": "Dados e fundamentos de IA", "conteudos": ["fontes, qualidade e preparação de dados", "modelos generativos, ML e casos de uso"]},
+				{"nome": "Análise com Python e SQL", "conteudos": ["extração, limpeza e exploração", "consultas analíticas e métricas de negócio"]},
+				{"nome": "Machine Learning aplicado", "conteudos": ["seleção de problema e modelo", "treino, validação e interpretação de resultados"]},
+				{"nome": "IA generativa em fluxos", "conteudos": ["prompts e uso de APIs", "resumo, classificação e revisão humana"]},
+				{"nome": "Entrega executiva", "conteudos": ["dashboard com resultados e indicadores", "avaliação de impacto, riscos e apresentação"]}
+			],
+			"modulos_total": 5,
+			"horas_total_estimadas": 115,
+			"promocoes": {"status": "verificar na DIO", "detalhe": "Promoções são temporárias e não foram confirmadas nesta consulta."},
+			"acesso_vitalicio": {"status": "nao_confirmado", "detalhe": "Conferir os termos do plano ou da oferta vigente."},
+			"lives_ao_vivo": {"status": "nao_confirmado", "detalhe": "A agenda depende de eventos e turmas; verificar a página da formação."},
+			"fonte": "https://www.dio.me/en/careers/ai-data-scientist",
+			"tipo_curriculo": "sugerido com conteúdos de IA, dados, Python e Power BI divulgados pela DIO"
+		}
+	]
+}
