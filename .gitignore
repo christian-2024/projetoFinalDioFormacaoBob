@@ -1,4 +1,5 @@
 node_modules/
+dist/
 .env
 /data/cache-progresso/
 /docs/certificados-emetidos/
